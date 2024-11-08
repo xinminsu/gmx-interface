@@ -16,26 +16,26 @@ export function NotifyModal() {
   const { notifyModalOpen, setNotifyModalOpen } = useNotifyModalState();
 
   return (
-    <Modal isVisible={notifyModalOpen} setIsVisible={setNotifyModalOpen} label={t`GMX Alerts`}>
+    <Modal isVisible={notifyModalOpen} setIsVisible={setNotifyModalOpen} label={t`NAC Alerts`}>
       <div className="NotifyModal">
         <Trans>
-          Get alerts and announcements from GMX to stay on top of your trades, liquidation risk, and&nbsp;more.
+          Get alerts and announcements from NAC to stay on top of your trades, liquidation risk, and&nbsp;more.
         </Trans>
         <NotifyBulletList />
         <Button
           variant="primary-action"
-          to="https://gmx.notifi.network"
+          to="https://nash.notifi.network"
           newTab
           className="NotifyModal-button w-full"
           type="submit"
         >
-          <Trans>Discover GMX Alerts</Trans>
+          <Trans>Discover NAC Alerts</Trans>
           <ExternalLinkIcon />
         </Button>
         <div className="NotifyModal-terms">
           <Trans>
             <span>
-              Notifications are provided by Notifi and not affiliated with&nbsp;GMX. By subscribing, you agree that info
+              Notifications are provided by Notifi and not affiliated with&nbsp;NAC. By subscribing, you agree that info
               you provide to Notifi will be governed by its{" "}
             </span>
             <ExternalLink href="https://notifi.network/privacy">Privacy Policy</ExternalLink>
@@ -56,7 +56,7 @@ const NotifyBulletList = memo(function NotifyBulletList() {
   return (
     <div className="NotifyModal-bullet-list">
       {[
-        t`GMX Announcements`,
+        t`NAC Announcements`,
         t`Trade Confirmations`,
         t`Liquidation Confirmations`,
         t`Governance Alerts`,

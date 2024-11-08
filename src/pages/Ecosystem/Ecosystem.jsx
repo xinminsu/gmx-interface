@@ -23,61 +23,61 @@ const NETWORK_ICON_ALTS = {
 };
 
 export default function Ecosystem() {
-  const gmxPages = [
+  const NACPages = [
     {
-      title: "GMX Governance",
-      link: "https://gov.gmx.io/",
-      linkLabel: "gov.gmx.io",
-      about: t`GMX Governance Page`,
+      title: "NAC Governance",
+      link: "https://gov.nashtrade.org/",
+      linkLabel: "gov.nashtrade.org",
+      about: t`NAC Governance Page`,
       chainIds: [ARBITRUM, AVALANCHE],
     },
     {
-      title: "GMX Stats",
-      link: "https://stats.gmx.io/",
-      linkLabel: "stats.gmx.io",
-      about: t`GMX Stats Page`,
+      title: "NAC Stats",
+      link: "https://stats.nashtrade.org/",
+      linkLabel: "stats.nashtrade.org",
+      about: t`NAC Stats Page`,
       chainIds: [ARBITRUM, AVALANCHE],
     },
     {
-      title: "GMX Proposals",
-      link: "https://snapshot.org/#/gmx.eth",
+      title: "NAC Proposals",
+      link: "https://snapshot.org/#/NAC.eth",
       linkLabel: "snapshot.org",
-      about: t`GMX Proposals Voting page`,
+      about: t`NACX Proposals Voting page`,
       chainIds: [ARBITRUM, AVALANCHE],
     },
     {
-      title: "GMX Announcements",
-      link: "https://t.me/GMX_Announcements",
+      title: "NAC Announcements",
+      link: "https://t.me/NAC_Announcements",
       linkLabel: "t.me",
-      about: t`GMX Announcements and Updates`,
+      about: t`NAC Announcements and Updates`,
       chainIds: [ARBITRUM, AVALANCHE],
     },
   ];
 
   const communityProjects = [
     {
-      title: "GMX Blueberry Club",
+      title: "NAC Blueberry Club",
       link: "https://www.blueberry.club/",
       linkLabel: "blueberry.club",
-      about: t`GMX Blueberry NFTs`,
+      about: t`NAC Blueberry NFTs`,
       creatorLabel: "@xm_gbc",
       creatorLink: "https://t.me/xm_gbc",
       chainIds: [ARBITRUM],
     },
     {
-      title: "GMX Leaderboard",
-      link: "https://www.gmx.house/",
-      linkLabel: "gmx.house",
-      about: t`Leaderboard for GMX traders`,
+      title: "NAC Leaderboard",
+      link: "https://www.nac.house/",
+      linkLabel: "nac.house",
+      about: t`Leaderboard for NAC traders`,
       creatorLabel: "@Itburnz",
       creatorLink: "https://t.me/Itburnz",
       chainIds: [ARBITRUM, AVALANCHE],
     },
     {
-      title: "GMX Positions Bot",
-      link: "https://t.me/GMXPositions",
+      title: "NAC Positions Bot",
+      link: "https://t.me/NACPositions",
       linkLabel: "t.me",
-      about: t`Telegram bot for GMX position updates`,
+      about: t`Telegram bot for NAC position updates`,
       creatorLabel: "@zhongfu",
       creatorLink: "https://t.me/zhongfu",
       chainIds: [ARBITRUM, AVALANCHE],
@@ -86,76 +86,76 @@ export default function Ecosystem() {
       title: "Blueberry Pulse",
       link: "https://blueberrypulse.substack.com/",
       linkLabel: "substack.com",
-      about: t`GMX Weekly Updates`,
+      about: t`NAC Weekly Updates`,
       creatorLabel: "@puroscohiba",
       creatorLink: "https://t.me/puroscohiba",
       chainIds: [ARBITRUM, AVALANCHE],
     },
     {
-      title: "GMX Yield Simulator",
-      link: "https://gmx.defisims.com/",
+      title: "NAC Yield Simulator",
+      link: "https://NAC.defisims.com/",
       linkLabel: "defisims.com",
-      about: t`Yield simulator for GMX`,
+      about: t`Yield simulator for NAC`,
       creatorLabel: "@kyzoeth",
       creatorLink: "https://twitter.com/kyzoeth",
       chainIds: [ARBITRUM, AVALANCHE],
     },
     {
-      title: "GMX Returns Calculator",
+      title: "NAC Returns Calculator",
       link: "https://docs.google.com/spreadsheets/u/4/d/1mQZlztz_NpTg5qQiYIzc_Ls1OTLfMOUtmEQN-WW8jj4/copy",
       linkLabel: "docs.google.com",
-      about: t`Returns calculator for GMX and GLP`,
+      about: t`Returns calculator for NAC and NLP`,
       creatorLabel: "@AStoicTrader1",
       creatorLink: "https://twitter.com/AStoicTrader1",
       chainIds: [ARBITRUM, AVALANCHE],
     },
     {
-      title: "GMX Trading Stats",
-      link: "https://t.me/GMXTradingStats",
+      title: "NAC Trading Stats",
+      link: "https://t.me/NACTradingStats",
       linkLabel: "t.me",
-      about: t`Telegram bot for Open Interest on GMX`,
+      about: t`Telegram bot for Open Interest on NAC`,
       creatorLabel: "@SniperMonke01",
       creatorLink: "https://twitter.com/SniperMonke01",
       chainIds: [ARBITRUM, AVALANCHE],
     },
     {
-      title: "GMX Staking Bot",
-      link: "https://t.me/GMX_Staking_bot",
+      title: "NAC Staking Bot",
+      link: "https://t.me/NAC_Staking_bot",
       linkLabel: "t.me",
-      about: t`GMX staking rewards updates and insights`,
-      creatorLabel: "@GMX_Staking_bot",
-      creatorLink: "https://twitter.com/GMX_Staking_bot",
+      about: t`NAC staking rewards updates and insights`,
+      creatorLabel: "@NAC_Staking_bot",
+      creatorLink: "https://twitter.com/NAC_Staking_bot",
       chainIds: [ARBITRUM, AVALANCHE],
     },
     {
-      title: "GMX Staking Calculator",
-      link: "https://gmxstaking.com",
-      linkLabel: "gmxstaking.com",
-      about: t`GMX staking calculator`,
+      title: "NAC Staking Calculator",
+      link: "https://NACstaking.com",
+      linkLabel: "NACstaking.com",
+      about: t`NAC staking calculator`,
       creatorLabel: "@n1njawtf",
       creatorLink: "https://t.me/n1njawtf",
       chainIds: [ARBITRUM, AVALANCHE],
     },
     {
-      title: "GMX Hedging Simulator",
-      link: "https://www.gmxhedge.com/",
-      linkLabel: "gmxhedge.com",
+      title: "NAC Hedging Simulator",
+      link: "https://www.NAChedge.com/",
+      linkLabel: "NAChedge.com",
       about: t`Simulate your hedge strategy`,
       creatorLabel: "@kyzoeth",
       creatorLink: "https://twitter.com/kyzoeth",
       chainIds: [ARBITRUM],
     },
     {
-      title: "GMX Swaps",
-      link: "https://t.me/GMXSwaps",
+      title: "NAC Swaps",
+      link: "https://t.me/NACSwaps",
       linkLabel: "t.me",
-      about: t`Telegram bot for GMX Swaps monitoring`,
+      about: t`Telegram bot for NAC Swaps monitoring`,
       creatorLabel: "@snipermonke01",
       creatorLink: "https://twitter.com/snipermonke01",
       chainIds: [ARBITRUM, AVALANCHE],
     },
     {
-      title: "GMX Position Calculator",
+      title: "NAC Position Calculator",
       link: "https://docs.google.com/spreadsheets/d/1OKCeRGU7l-xGx33-siBw_l8x7vP97y4KKKjA2x5LqhQ/edit#gid=0",
       linkLabel: "docs.google.com",
       about: t`Spreadsheet for position calculations`,
@@ -164,10 +164,10 @@ export default function Ecosystem() {
       chainIds: [ARBITRUM, AVALANCHE],
     },
     {
-      title: "SNTL esGMX Market",
+      title: "SNTL esNAC Market",
       link: "https://sntl.market/",
       linkLabel: "sntl.market",
-      about: t`esGMX OTC Market`,
+      about: t`esNAC OTC Market`,
       creatorLabel: "@sntlai",
       creatorLink: "https://twitter.com/sntlai",
       chainIds: [ARBITRUM, AVALANCHE],
@@ -185,27 +185,27 @@ export default function Ecosystem() {
 
   const dashboardProjects = [
     {
-      title: "GMX Referrals Dashboard",
-      link: "https://www.gmxreferrals.com/",
-      linkLabel: "gmxreferrals.com",
-      about: t`Dashboard for GMX referral stats`,
+      title: "NAC Referrals Dashboard",
+      link: "https://www.NACreferrals.com/",
+      linkLabel: "NACreferrals.com",
+      about: t`Dashboard for NAC referral stats`,
       creatorLabel: "@kyzoeth",
       creatorLink: "https://twitter.com/kyzoeth",
       chainIds: [ARBITRUM, AVALANCHE],
     },
     {
-      title: "GMX Terminal",
-      link: "https://gmxterminal.com",
-      linkLabel: "gmxterminal.com",
-      about: t`GMX explorer for stats and traders`,
+      title: "NAC Terminal",
+      link: "https://NACterminal.com",
+      linkLabel: "NACterminal.com",
+      about: t`NAC explorer for stats and traders`,
       creatorLabel: "@vipineth",
       creatorLink: "https://t.me/vipineth",
       chainIds: [ARBITRUM],
     },
     {
-      title: "GMX Analytics",
-      link: "https://gmxstats.info/",
-      linkLabel: "gmxstats.info",
+      title: "NAC Analytics",
+      link: "https://NACstats.info/",
+      linkLabel: "NACstats.info",
       about: t`Financial reports and protocol analytics`,
       creatorLabel: "@sliux",
       creatorLink: "https://twitter.com/sliux",
@@ -213,9 +213,9 @@ export default function Ecosystem() {
     },
     {
       title: "TokenTerminal",
-      link: "https://tokenterminal.com/terminal/projects/gmx",
+      link: "https://tokenterminal.com/terminal/projects/NAC",
       linkLabel: "tokenterminal.com",
-      about: t`GMX fundamentals`,
+      about: t`NAC fundamentals`,
       creatorLabel: "@tokenterminal",
       creatorLink: "https://twitter.com/tokenterminal",
       chainIds: [ARBITRUM, AVALANCHE],
@@ -224,14 +224,14 @@ export default function Ecosystem() {
       title: "CryptoFees",
       link: "https://cryptofees.info",
       linkLabel: "cryptofees.info",
-      about: t`Fees generated by GMX`,
+      about: t`Fees generated by NAC`,
       creatorLabel: "@CryptoFeesInfo",
       creatorLink: "https://twitter.com/CryptoFeesInfo",
       chainIds: [ARBITRUM, AVALANCHE],
     },
     {
       title: "Shogun Dashboard (Dune Arbitrum)",
-      link: "https://dune.com/shogun/gmx-analytics-arbitrum",
+      link: "https://dune.com/shogun/NAC-analytics-arbitrum",
       linkLabel: "dune.com",
       about: t`Protocol analytics`,
       creatorLabel: "@JamesCliffyz",
@@ -240,7 +240,7 @@ export default function Ecosystem() {
     },
     {
       title: "Shogun Dashboard (Dune Avalanche)",
-      link: "https://dune.com/shogun/gmx-analytics-avalanche",
+      link: "https://dune.com/shogun/NAC-analytics-avalanche",
       linkLabel: "dune.com",
       about: t`Protocol analytics`,
       creatorLabel: "@JamesCliffyz",
@@ -248,16 +248,16 @@ export default function Ecosystem() {
       chainIds: [AVALANCHE],
     },
     {
-      title: "GMX Perpetuals Data",
-      link: "https://app.laevitas.ch/altsderivs/GMX/perpetualswaps",
+      title: "NAC Perpetuals Data",
+      link: "https://app.laevitas.ch/altsderivs/NAC/perpetualswaps",
       linkLabel: "laevitas.ch",
-      about: t`GMX Perpetuals Data`,
+      about: t`NAC Perpetuals Data`,
       creatorLabel: "@laevitas1",
       creatorLink: "https://twitter.com/laevitas1",
       chainIds: [ARBITRUM],
     },
     {
-      title: "GMX Blueberry Leaderboard",
+      title: "NAC Blueberry Leaderboard",
       link: "https://www.blueberryboard.com",
       linkLabel: "blueberryboard.com",
       about: t`GBC NFTs APR tracker and rewards`,
@@ -266,8 +266,8 @@ export default function Ecosystem() {
       chainIds: [ARBITRUM],
     },
     {
-      title: "GMX Open Trades Ranking and Stats",
-      link: "https://dune.com/HanSolar/gmx-open-trade-ranking-and-stats",
+      title: "NAC Open Trades Ranking and Stats",
+      link: "https://dune.com/HanSolar/NAC-open-trade-ranking-and-stats",
       linkLabel: "dune.com",
       about: t`Open trades ranking and stats`,
       creatorLabel: "@hansolar21",
@@ -275,26 +275,26 @@ export default function Ecosystem() {
       chainIds: [ARBITRUM, AVALANCHE],
     },
     {
-      title: "GMX Everything Dashboard",
-      link: "https://dune.com/gmxtrader/gmx-dashboard-insights",
+      title: "NAC Everything Dashboard",
+      link: "https://dune.com/NACtrader/NAC-dashboard-insights",
       linkLabel: "dune.com",
       about: t`Overall protocol analytics`,
-      creatorLabel: "@gmxtrader",
-      creatorLink: "https://twitter.com/gmxtrader",
+      creatorLabel: "@NACtrader",
+      creatorLink: "https://twitter.com/NACtrader",
       chainIds: [ARBITRUM, AVALANCHE],
     },
     {
       title: "Staking Rewards Calculator",
-      link: "https://www.stakingrewards.com/earn/gmx/",
+      link: "https://www.stakingrewards.com/earn/NAC/",
       linkLabel: "stakingrewards.com",
-      about: t`GMX staking calculator and guide`,
+      about: t`NAC staking calculator and guide`,
       creatorLabel: "@stakingrewards",
       creatorLink: "https://twitter.com/stakingrewards",
       chainIds: [ARBITRUM, AVALANCHE],
     },
     {
-      title: "GMX Risk Monitoring",
-      link: "https://community.chaoslabs.xyz/gmx-arbitrum/ccar-perps/overview",
+      title: "NAC Risk Monitoring",
+      link: "https://community.chaoslabs.xyz/NAC-arbitrum/ccar-perps/overview",
       linkLabel: "chaoslabs.xyz",
       about: t`Protocol risk explorer and stats`,
       creatorLabel: "@chaos_labs",
@@ -411,7 +411,7 @@ export default function Ecosystem() {
       title: "Plutus",
       link: "https://plutusdao.io/vaults",
       linkLabel: "plutusdao.io",
-      about: t`GLP autocompounding vaults`,
+      about: t`NLP autocompounding vaults`,
 
       chainIds: [ARBITRUM],
     },
@@ -419,7 +419,7 @@ export default function Ecosystem() {
       title: "Beefy",
       link: "https://app.beefy.com/",
       linkLabel: "beefy.com",
-      about: t`GLP and GMX autocompounding vaults`,
+      about: t`NLP and NAC autocompounding vaults`,
 
       chainIds: [ARBITRUM, AVALANCHE],
     },
@@ -472,28 +472,28 @@ export default function Ecosystem() {
 
   const telegramGroups = [
     {
-      title: "GMX",
-      link: "https://t.me/GMX_IO",
+      title: "NAC",
+      link: "https://t.me/+nBiLgG9RZQkwMzg1",
       linkLabel: "t.me",
       about: t`Telegram Group`,
     },
     {
-      title: "GMX (Chinese)",
-      link: "https://t.me/gmxch",
+      title: "NAC (Chinese)",
+      link: "https://t.me/NACch",
       linkLabel: "t.me",
       about: t`Telegram Group (Chinese)`,
     },
     {
-      title: "GMX (Portuguese)",
-      link: "https://t.me/GMX_Portuguese",
+      title: "NAC (Portuguese)",
+      link: "https://t.me/NAC_Portuguese",
       linkLabel: "t.me",
       about: t`Telegram Group (Portuguese)`,
     },
     {
-      title: "GMX Trading Chat",
+      title: "NAC Trading Chat",
       link: "https://t.me/gambittradingchat",
       linkLabel: "t.me",
-      about: t`GMX community discussion`,
+      about: t`NAC community discussion`,
     },
   ];
 
@@ -504,12 +504,12 @@ export default function Ecosystem() {
           <PageTitle
             showNetworkIcon={false}
             isTop
-            title={t`GMX Pages`}
-            subtitle={t`GMX ecosystem pages.`}
+            title={t`NAC Pages`}
+            subtitle={t`NAC ecosystem pages.`}
             qa="ecosystem-page"
           />
           <div className="Ecosystem-projects">
-            {gmxPages.map((item) => {
+            {NACPages.map((item) => {
               const linkLabel = item.linkLabel ? item.linkLabel : item.link;
               return (
                 <div className="App-card" key={item.title}>
@@ -548,7 +548,7 @@ export default function Ecosystem() {
             title={t`Community Projects`}
             subtitle={
               <Trans>
-                Projects developed by the GMX community. <br />
+                Projects developed by the NAC community. <br />
                 Please exercise caution when interacting with any app, apps are fully maintained by community
                 developers.
               </Trans>
@@ -606,7 +606,7 @@ export default function Ecosystem() {
               );
             })}
           </div>
-          <PageTitle showNetworkIcon={false} title={t`Dashboards`} subtitle={t`GMX dashboards and analytics.`} />
+          <PageTitle showNetworkIcon={false} title={t`Dashboards`} subtitle={t`NAC dashboards and analytics.`} />
           <div className="Ecosystem-projects">
             {dashboardProjects.map((item) => {
               const linkLabel = item.linkLabel ? item.linkLabel : item.link;
@@ -653,7 +653,7 @@ export default function Ecosystem() {
           <PageTitle
             showNetworkIcon={false}
             title={t`Partnerships and Integrations`}
-            subtitle={t`Projects integrated with GMX.`}
+            subtitle={t`Projects integrated with NAC.`}
           />
           <div className="Ecosystem-projects">
             {integrations.map((item) => {
@@ -691,7 +691,7 @@ export default function Ecosystem() {
           </div>
           <div className="mt-16">
             <Trans>
-              GMX uses TradingView to provide real-time cryptocurrency charts, so you can easily follow{" "}
+              NAC uses TradingView to provide real-time cryptocurrency charts, so you can easily follow{" "}
               <ExternalLink href="https://www.tradingview.com/symbols/BTCUSD/">BTCUSD</ExternalLink> price in real-time,
               along with other currency pair rates. The interactive charts offer advanced tools and a user-friendly
               interface for easier market analysis and decision-making.
