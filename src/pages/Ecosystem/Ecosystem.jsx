@@ -23,61 +23,61 @@ const NETWORK_ICON_ALTS = {
 };
 
 export default function Ecosystem() {
-  const NACPages = [
+  const nscPages = [
     {
-      title: "NAC Governance",
+      title: "NSC Governance",
       link: "https://gov.nashtrade.org/",
       linkLabel: "gov.nashtrade.org",
-      about: t`NAC Governance Page`,
+      about: t`NSC Governance Page`,
       chainIds: [ARBITRUM, AVALANCHE],
     },
     {
-      title: "NAC Stats",
+      title: "NSC Stats",
       link: "https://stats.nashtrade.org/",
       linkLabel: "stats.nashtrade.org",
-      about: t`NAC Stats Page`,
+      about: t`NSC Stats Page`,
       chainIds: [ARBITRUM, AVALANCHE],
     },
     {
-      title: "NAC Proposals",
-      link: "https://snapshot.org/#/NAC.eth",
+      title: "NSC Proposals",
+      link: "https://snapshot.org/#/nsc.eth",
       linkLabel: "snapshot.org",
-      about: t`NACX Proposals Voting page`,
+      about: t`NSCX Proposals Voting page`,
       chainIds: [ARBITRUM, AVALANCHE],
     },
     {
-      title: "NAC Announcements",
-      link: "https://t.me/NAC_Announcements",
+      title: "NSC Announcements",
+      link: "https://t.me/NSC_Announcements",
       linkLabel: "t.me",
-      about: t`NAC Announcements and Updates`,
+      about: t`NSC Announcements and Updates`,
       chainIds: [ARBITRUM, AVALANCHE],
     },
   ];
 
   const communityProjects = [
     {
-      title: "NAC Blueberry Club",
+      title: "NSC Blueberry Club",
       link: "https://www.blueberry.club/",
       linkLabel: "blueberry.club",
-      about: t`NAC Blueberry NFTs`,
+      about: t`NSC Blueberry NFTs`,
       creatorLabel: "@xm_gbc",
       creatorLink: "https://t.me/xm_gbc",
       chainIds: [ARBITRUM],
     },
     {
-      title: "NAC Leaderboard",
-      link: "https://www.nac.house/",
-      linkLabel: "nac.house",
-      about: t`Leaderboard for NAC traders`,
+      title: "NSC Leaderboard",
+      link: "https://www.nsc.house/",
+      linkLabel: "nsc.house",
+      about: t`Leaderboard for NSC traders`,
       creatorLabel: "@Itburnz",
       creatorLink: "https://t.me/Itburnz",
       chainIds: [ARBITRUM, AVALANCHE],
     },
     {
-      title: "NAC Positions Bot",
-      link: "https://t.me/NACPositions",
+      title: "NSC Positions Bot",
+      link: "https://t.me/NSCPositions",
       linkLabel: "t.me",
-      about: t`Telegram bot for NAC position updates`,
+      about: t`Telegram bot for NSC position updates`,
       creatorLabel: "@zhongfu",
       creatorLink: "https://t.me/zhongfu",
       chainIds: [ARBITRUM, AVALANCHE],
@@ -86,76 +86,76 @@ export default function Ecosystem() {
       title: "Blueberry Pulse",
       link: "https://blueberrypulse.substack.com/",
       linkLabel: "substack.com",
-      about: t`NAC Weekly Updates`,
+      about: t`NSC Weekly Updates`,
       creatorLabel: "@puroscohiba",
       creatorLink: "https://t.me/puroscohiba",
       chainIds: [ARBITRUM, AVALANCHE],
     },
     {
-      title: "NAC Yield Simulator",
-      link: "https://NAC.defisims.com/",
+      title: "NSC Yield Simulator",
+      link: "https://nsc.defisims.com/",
       linkLabel: "defisims.com",
-      about: t`Yield simulator for NAC`,
+      about: t`Yield simulator for NSC`,
       creatorLabel: "@kyzoeth",
       creatorLink: "https://twitter.com/kyzoeth",
       chainIds: [ARBITRUM, AVALANCHE],
     },
     {
-      title: "NAC Returns Calculator",
+      title: "NSC Returns Calculator",
       link: "https://docs.google.com/spreadsheets/u/4/d/1mQZlztz_NpTg5qQiYIzc_Ls1OTLfMOUtmEQN-WW8jj4/copy",
       linkLabel: "docs.google.com",
-      about: t`Returns calculator for NAC and NLP`,
+      about: t`Returns calculator for NSC and NLP`,
       creatorLabel: "@AStoicTrader1",
       creatorLink: "https://twitter.com/AStoicTrader1",
       chainIds: [ARBITRUM, AVALANCHE],
     },
     {
-      title: "NAC Trading Stats",
-      link: "https://t.me/NACTradingStats",
+      title: "NSC Trading Stats",
+      link: "https://t.me/NSCTradingStats",
       linkLabel: "t.me",
-      about: t`Telegram bot for Open Interest on NAC`,
+      about: t`Telegram bot for Open Interest on NSC`,
       creatorLabel: "@SniperMonke01",
       creatorLink: "https://twitter.com/SniperMonke01",
       chainIds: [ARBITRUM, AVALANCHE],
     },
     {
-      title: "NAC Staking Bot",
-      link: "https://t.me/NAC_Staking_bot",
+      title: "NSC Staking Bot",
+      link: "https://t.me/NSC_Staking_bot",
       linkLabel: "t.me",
-      about: t`NAC staking rewards updates and insights`,
-      creatorLabel: "@NAC_Staking_bot",
-      creatorLink: "https://twitter.com/NAC_Staking_bot",
+      about: t`NSC staking rewards updates and insights`,
+      creatorLabel: "@NSC_Staking_bot",
+      creatorLink: "https://twitter.com/NSC_Staking_bot",
       chainIds: [ARBITRUM, AVALANCHE],
     },
     {
-      title: "NAC Staking Calculator",
-      link: "https://NACstaking.com",
-      linkLabel: "NACstaking.com",
-      about: t`NAC staking calculator`,
+      title: "NSC Staking Calculator",
+      link: "https://NSCstaking.com",
+      linkLabel: "NSCstaking.com",
+      about: t`NSC staking calculator`,
       creatorLabel: "@n1njawtf",
       creatorLink: "https://t.me/n1njawtf",
       chainIds: [ARBITRUM, AVALANCHE],
     },
     {
-      title: "NAC Hedging Simulator",
-      link: "https://www.NAChedge.com/",
-      linkLabel: "NAChedge.com",
+      title: "NSC Hedging Simulator",
+      link: "https://www.NSChedge.com/",
+      linkLabel: "NSChedge.com",
       about: t`Simulate your hedge strategy`,
       creatorLabel: "@kyzoeth",
       creatorLink: "https://twitter.com/kyzoeth",
       chainIds: [ARBITRUM],
     },
     {
-      title: "NAC Swaps",
-      link: "https://t.me/NACSwaps",
+      title: "NSC Swaps",
+      link: "https://t.me/NSCSwaps",
       linkLabel: "t.me",
-      about: t`Telegram bot for NAC Swaps monitoring`,
+      about: t`Telegram bot for NSC Swaps monitoring`,
       creatorLabel: "@snipermonke01",
       creatorLink: "https://twitter.com/snipermonke01",
       chainIds: [ARBITRUM, AVALANCHE],
     },
     {
-      title: "NAC Position Calculator",
+      title: "NSC Position Calculator",
       link: "https://docs.google.com/spreadsheets/d/1OKCeRGU7l-xGx33-siBw_l8x7vP97y4KKKjA2x5LqhQ/edit#gid=0",
       linkLabel: "docs.google.com",
       about: t`Spreadsheet for position calculations`,
@@ -164,10 +164,10 @@ export default function Ecosystem() {
       chainIds: [ARBITRUM, AVALANCHE],
     },
     {
-      title: "SNTL esNAC Market",
+      title: "SNTL esNSC Market",
       link: "https://sntl.market/",
       linkLabel: "sntl.market",
-      about: t`esNAC OTC Market`,
+      about: t`esNSC OTC Market`,
       creatorLabel: "@sntlai",
       creatorLink: "https://twitter.com/sntlai",
       chainIds: [ARBITRUM, AVALANCHE],
@@ -185,27 +185,27 @@ export default function Ecosystem() {
 
   const dashboardProjects = [
     {
-      title: "NAC Referrals Dashboard",
-      link: "https://www.NACreferrals.com/",
-      linkLabel: "NACreferrals.com",
-      about: t`Dashboard for NAC referral stats`,
+      title: "NSC Referrals Dashboard",
+      link: "https://www.NSCreferrals.com/",
+      linkLabel: "NSCreferrals.com",
+      about: t`Dashboard for NSC referral stats`,
       creatorLabel: "@kyzoeth",
       creatorLink: "https://twitter.com/kyzoeth",
       chainIds: [ARBITRUM, AVALANCHE],
     },
     {
-      title: "NAC Terminal",
-      link: "https://NACterminal.com",
-      linkLabel: "NACterminal.com",
-      about: t`NAC explorer for stats and traders`,
+      title: "NSC Terminal",
+      link: "https://nscterminal.com",
+      linkLabel: "nscterminal.com",
+      about: t`NSC explorer for stats and traders`,
       creatorLabel: "@vipineth",
       creatorLink: "https://t.me/vipineth",
       chainIds: [ARBITRUM],
     },
     {
-      title: "NAC Analytics",
-      link: "https://NACstats.info/",
-      linkLabel: "NACstats.info",
+      title: "NSC Analytics",
+      link: "https://nscstats.info/",
+      linkLabel: "nscstats.info",
       about: t`Financial reports and protocol analytics`,
       creatorLabel: "@sliux",
       creatorLink: "https://twitter.com/sliux",
@@ -213,9 +213,9 @@ export default function Ecosystem() {
     },
     {
       title: "TokenTerminal",
-      link: "https://tokenterminal.com/terminal/projects/NAC",
+      link: "https://tokenterminal.com/terminal/projects/nsc",
       linkLabel: "tokenterminal.com",
-      about: t`NAC fundamentals`,
+      about: t`NSC fundamentals`,
       creatorLabel: "@tokenterminal",
       creatorLink: "https://twitter.com/tokenterminal",
       chainIds: [ARBITRUM, AVALANCHE],
@@ -224,14 +224,14 @@ export default function Ecosystem() {
       title: "CryptoFees",
       link: "https://cryptofees.info",
       linkLabel: "cryptofees.info",
-      about: t`Fees generated by NAC`,
+      about: t`Fees generated by NSC`,
       creatorLabel: "@CryptoFeesInfo",
       creatorLink: "https://twitter.com/CryptoFeesInfo",
       chainIds: [ARBITRUM, AVALANCHE],
     },
     {
       title: "Shogun Dashboard (Dune Arbitrum)",
-      link: "https://dune.com/shogun/NAC-analytics-arbitrum",
+      link: "https://dune.com/shogun/nsc-analytics-arbitrum",
       linkLabel: "dune.com",
       about: t`Protocol analytics`,
       creatorLabel: "@JamesCliffyz",
@@ -240,7 +240,7 @@ export default function Ecosystem() {
     },
     {
       title: "Shogun Dashboard (Dune Avalanche)",
-      link: "https://dune.com/shogun/NAC-analytics-avalanche",
+      link: "https://dune.com/shogun/nsc-analytics-avalanche",
       linkLabel: "dune.com",
       about: t`Protocol analytics`,
       creatorLabel: "@JamesCliffyz",
@@ -248,16 +248,16 @@ export default function Ecosystem() {
       chainIds: [AVALANCHE],
     },
     {
-      title: "NAC Perpetuals Data",
-      link: "https://app.laevitas.ch/altsderivs/NAC/perpetualswaps",
+      title: "NSC Perpetuals Data",
+      link: "https://app.laevitas.ch/altsderivs/NSC/perpetualswaps",
       linkLabel: "laevitas.ch",
-      about: t`NAC Perpetuals Data`,
+      about: t`NSC Perpetuals Data`,
       creatorLabel: "@laevitas1",
       creatorLink: "https://twitter.com/laevitas1",
       chainIds: [ARBITRUM],
     },
     {
-      title: "NAC Blueberry Leaderboard",
+      title: "NSC Blueberry Leaderboard",
       link: "https://www.blueberryboard.com",
       linkLabel: "blueberryboard.com",
       about: t`GBC NFTs APR tracker and rewards`,
@@ -266,8 +266,8 @@ export default function Ecosystem() {
       chainIds: [ARBITRUM],
     },
     {
-      title: "NAC Open Trades Ranking and Stats",
-      link: "https://dune.com/HanSolar/NAC-open-trade-ranking-and-stats",
+      title: "NSC Open Trades Ranking and Stats",
+      link: "https://dune.com/HanSolar/nsc-open-trade-ranking-and-stats",
       linkLabel: "dune.com",
       about: t`Open trades ranking and stats`,
       creatorLabel: "@hansolar21",
@@ -275,26 +275,26 @@ export default function Ecosystem() {
       chainIds: [ARBITRUM, AVALANCHE],
     },
     {
-      title: "NAC Everything Dashboard",
-      link: "https://dune.com/NACtrader/NAC-dashboard-insights",
+      title: "NSC Everything Dashboard",
+      link: "https://dune.com/NSCtrader/nsc-dashboard-insights",
       linkLabel: "dune.com",
       about: t`Overall protocol analytics`,
-      creatorLabel: "@NACtrader",
-      creatorLink: "https://twitter.com/NACtrader",
+      creatorLabel: "@nsctrader",
+      creatorLink: "https://twitter.com/nsctrader",
       chainIds: [ARBITRUM, AVALANCHE],
     },
     {
       title: "Staking Rewards Calculator",
-      link: "https://www.stakingrewards.com/earn/NAC/",
+      link: "https://www.stakingrewards.com/earn/nsc/",
       linkLabel: "stakingrewards.com",
-      about: t`NAC staking calculator and guide`,
+      about: t`NSC staking calculator and guide`,
       creatorLabel: "@stakingrewards",
       creatorLink: "https://twitter.com/stakingrewards",
       chainIds: [ARBITRUM, AVALANCHE],
     },
     {
-      title: "NAC Risk Monitoring",
-      link: "https://community.chaoslabs.xyz/NAC-arbitrum/ccar-perps/overview",
+      title: "NSC Risk Monitoring",
+      link: "https://community.chaoslabs.xyz/nsc-arbitrum/ccar-perps/overview",
       linkLabel: "chaoslabs.xyz",
       about: t`Protocol risk explorer and stats`,
       creatorLabel: "@chaos_labs",
@@ -419,7 +419,7 @@ export default function Ecosystem() {
       title: "Beefy",
       link: "https://app.beefy.com/",
       linkLabel: "beefy.com",
-      about: t`NLP and NAC autocompounding vaults`,
+      about: t`NLP and NSC autocompounding vaults`,
 
       chainIds: [ARBITRUM, AVALANCHE],
     },
@@ -472,28 +472,28 @@ export default function Ecosystem() {
 
   const telegramGroups = [
     {
-      title: "NAC",
+      title: "NSC",
       link: "https://t.me/+nBiLgG9RZQkwMzg1",
       linkLabel: "t.me",
       about: t`Telegram Group`,
     },
     {
-      title: "NAC (Chinese)",
-      link: "https://t.me/NACch",
+      title: "NSC (Chinese)",
+      link: "https://t.me/nscch",
       linkLabel: "t.me",
       about: t`Telegram Group (Chinese)`,
     },
     {
-      title: "NAC (Portuguese)",
-      link: "https://t.me/NAC_Portuguese",
+      title: "NSC (Portuguese)",
+      link: "https://t.me/NSC_Portuguese",
       linkLabel: "t.me",
       about: t`Telegram Group (Portuguese)`,
     },
     {
-      title: "NAC Trading Chat",
+      title: "NSC Trading Chat",
       link: "https://t.me/gambittradingchat",
       linkLabel: "t.me",
-      about: t`NAC community discussion`,
+      about: t`NSC community discussion`,
     },
   ];
 
@@ -504,12 +504,12 @@ export default function Ecosystem() {
           <PageTitle
             showNetworkIcon={false}
             isTop
-            title={t`NAC Pages`}
-            subtitle={t`NAC ecosystem pages.`}
+            title={t`NSC Pages`}
+            subtitle={t`NSC ecosystem pages.`}
             qa="ecosystem-page"
           />
           <div className="Ecosystem-projects">
-            {NACPages.map((item) => {
+            {nscPages.map((item) => {
               const linkLabel = item.linkLabel ? item.linkLabel : item.link;
               return (
                 <div className="App-card" key={item.title}>
@@ -548,7 +548,7 @@ export default function Ecosystem() {
             title={t`Community Projects`}
             subtitle={
               <Trans>
-                Projects developed by the NAC community. <br />
+                Projects developed by the NSC community. <br />
                 Please exercise caution when interacting with any app, apps are fully maintained by community
                 developers.
               </Trans>
@@ -606,7 +606,7 @@ export default function Ecosystem() {
               );
             })}
           </div>
-          <PageTitle showNetworkIcon={false} title={t`Dashboards`} subtitle={t`NAC dashboards and analytics.`} />
+          <PageTitle showNetworkIcon={false} title={t`Dashboards`} subtitle={t`NSC dashboards and analytics.`} />
           <div className="Ecosystem-projects">
             {dashboardProjects.map((item) => {
               const linkLabel = item.linkLabel ? item.linkLabel : item.link;
@@ -653,7 +653,7 @@ export default function Ecosystem() {
           <PageTitle
             showNetworkIcon={false}
             title={t`Partnerships and Integrations`}
-            subtitle={t`Projects integrated with NAC.`}
+            subtitle={t`Projects integrated with NSC.`}
           />
           <div className="Ecosystem-projects">
             {integrations.map((item) => {
@@ -691,7 +691,7 @@ export default function Ecosystem() {
           </div>
           <div className="mt-16">
             <Trans>
-              NAC uses TradingView to provide real-time cryptocurrency charts, so you can easily follow{" "}
+              NSC uses TradingView to provide real-time cryptocurrency charts, so you can easily follow{" "}
               <ExternalLink href="https://www.tradingview.com/symbols/BTCUSD/">BTCUSD</ExternalLink> price in real-time,
               along with other currency pair rates. The interactive charts offer advanced tools and a user-friendly
               interface for easier market analysis and decision-making.
